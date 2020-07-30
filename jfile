@@ -7,14 +7,8 @@ pipeline {
       stage("testprasannastage") {
           steps {
             echo "Hi Prasanna, test build from GIT. hey !!" 
-          }
-      
-      }
-
-
-
-  
-  
+           }
+    }
   }
 }
 
