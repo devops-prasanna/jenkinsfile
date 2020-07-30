@@ -4,11 +4,21 @@ pipeline {
   
   stages {
   
-      stage("testprasannastage") {
+      stage("testprasannastage11111111") {
           steps {
             echo "Hi Prasanna, test build from GIT. hey !!" 
            }
     }
+    
+    
+          stage("testprasannastage22222222") {
+          steps {
+            echo "22222222222y !!" 
+           }
+    }
+    
+    
+    
   }
 }
 
